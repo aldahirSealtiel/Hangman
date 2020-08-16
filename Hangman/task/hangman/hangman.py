@@ -16,7 +16,6 @@ if command == 'play':
     for _ in range(len(answer)):
         discovered.append(False)
 
-
     while chances > 0 and letters_discovered < len(answer):
         print()
         show_letters = ""
